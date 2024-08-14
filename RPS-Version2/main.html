@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="intro">
+        <div class="wrapper">
+            <h1 class="intro-label">Rock paper scissors game</h1>
+            <h4 class="intro-label2">by Ruther</h4>
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="white-container">
+            <div class="label-container">
+                <p class="game-label">Rock paper scissors game</p>
+            </div>
+            <div class="score-container">
+                <p class="score-label">SCORE</p>
+                <span class="show-score">0</span>
+            </div>
+        </div> 
+    </div>
+    
+    <div class="pick-your-choice">
+        <p class="instruction-label">Pick your choice</p>
+    </div>
+
+
+    <div class="button-choices">
+            <button class="btn1">
+                <img class="imgsize1" src="elements/rock.png" alt="rock">  
+            </button>
+
+            <button class="btn2">
+                <img class="imgsize2" src="elements/paper.png" alt="paper">                           
+            </button>
+
+            <button class="btn3">
+                <img class="imgsize3" src="elements/scissor.png" alt="scissor">
+            </button>
+    </div>
+
+    <div class="main-div-for-result">
+        <div class="your-move-div">
+            <img class="your-move-image1" src="elements/rock.png" alt="rock">
+            <img class="your-move-image2" src="elements/paper.png" alt="paper">
+            <img class="your-move-image3" src="elements/scissor.png" alt="scissor">
+            <p class="you-label">YOU</p>
+        </div>
+        <div class="you-win-play-again">
+            <p class="result"></p>
+            <div>
+                <button class="play-again-btn">PLAY AGAIN</button>
+            </div>
+        </div>
+        
+        <div class="CPU"> 
+            <div class="cpu-div">
+                <img class="cpu-move-image1" src="elements/scissor.png" alt="">
+                <img class="cpu-move-image2" src="elements/paper.png" alt="">
+                <img class="cpu-move-image3" src="elements/rock.png" alt="">
+            </div>
+            <div class="label-div">
+                <p class="you-label">bot</p>
+            </div>
+        </div>
+    </div>
+    
+
+
+        <script src="script.js"></script>
+</body>
+</html>

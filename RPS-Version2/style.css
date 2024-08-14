@@ -1,0 +1,159 @@
+body{
+    background-color: #0C0C0C;
+    color: #FFFFFF;
+    font-family: "Bebas Neue";
+    margin: 0;
+    top: 0;
+}
+.intro{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+.wrapper{
+    display: grid;
+    place-items: center;
+}
+.intro-label{
+    font-size: 3.75em;
+    font-weight: 200;
+    font-style: normal;
+    margin: 1px;
+}
+.intro-label2{
+    font-family: Arial;
+    font-size: 0.9em;
+    font-weight: 100;
+    margin: 1px;
+}
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* game part */
+.score-board{
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    padding-top: 60px;
+}
+.white-container{
+    border: 4px solid #FFFFFF;
+    width: 747px;
+    height: 218px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.game-label,.score-label,.show-score{
+    font-size: 3.5em;
+    margin: 0;
+}
+.label-container{
+    width: 270px;
+    margin-right: 160px;
+    margin-top: 32px;
+}
+.score-container{
+    width: 90px;
+    margin-top: 32px;
+    margin-right: 15px;
+}
+.show-score{
+    display: flex;
+    justify-content: center;
+    padding-left: 19px;
+}
+.instruction-label{
+    font-size: 4.5em;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.pick-your-choice{
+    display: none;
+    justify-content: center; /* centering the grid div*/
+}
+.button-choices{
+    display: none;
+    justify-content: center;
+}
+.btn1,.btn2,.btn3{
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin: 123px;
+    margin-right: 123px;
+    margin-top: 50px;
+    transition: transform 0.2s ease;
+    border-radius: 500px;
+}    /* design */
+.imgsize1,.imgsize2,.imgsize3{
+    width: 126px;
+}
+.btn1:hover,.btn2:hover,.btn3:hover{
+    transform: translateY(-0.4em);
+    transition: transform 0.1s ease;
+}
+.main-div-for-result{
+    display: none;
+    justify-content: center;
+    margin-top: 100px;
+}
+.cpu-move-div{
+    position: relative;
+}
+.your-move-image1,.your-move-image2,.your-move-image3{
+    width: 153px;
+    display: none;
+}
+.you-label{
+    font-size: 3.5em;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.you-win-play-again{
+    display: grid;
+    place-items: center;
+    font-size: 3.5em;
+    height: 160px;
+    margin: 0 153px;
+}
+.you-win-play-again > p{
+    margin: 0;
+}
+.play-again-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-family: "Bebas Neue";
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #ffffff;
+    height: 67px;
+    width: 131px;
+}
+.play-again-btn:hover{
+    background-color: #e6e6e6;
+}
+.cpu-move-div{
+    position: relative;
+}
+.cpu-move-image1,.cpu-move-image2,.cpu-move-image3{
+    width: 153px;
+    transform: scaleX(-1);
+}
+
+
+
+
+
